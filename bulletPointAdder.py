@@ -6,7 +6,7 @@ import pyperclip
 
 text = pyperclip.paste()
 
-# TODO: Separate lines and add stars
+# Separate lines and add stars
 lines = text.split('\n')
 for i in range(len(lines)):     # Loop through all indexes in the lines list
     lines[i] = '* ' + lines[i]  # Add star to each string in lines list
